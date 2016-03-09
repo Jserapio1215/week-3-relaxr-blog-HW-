@@ -69,12 +69,19 @@ header {
 .header h1 {
   float: left;
   color: #ffffff;
+  font-size: 24px;
+  font-weight: 800;
 }
 .header nav {
   float: right;
-}
+
+ }
 .header nav li {
   display: inline-block;
+  font-size: 24px;
+  font-weight: 600;
+  padding-right: 10px;
+  color: #f9e42e;
 }
 #main {
   background-color: #f0efef;
@@ -87,9 +94,40 @@ header {
   float: left;
   width: 55%;
 }
+.post h2 {
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 25px;
+}
+.post p {
+  font-size: 24px;
+  font-weight: 300;
+}
+.post span {
+  float: right;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+}
 .side {
   float: right;
   width: 25%;
+}
+.side h4 {
+  font-size: 32px;
+  font-weight: 800;
+}
+.categories li {
+  font-size: 24px;
+  font-weight: 300;
+}
+.about p {
+  font-size: 22px;
+  font-weight: 300;
+}
+.about span {
+  font-size: 22px;
+  font-weight: 600;
 }
 .sign {
   height: 40px;
