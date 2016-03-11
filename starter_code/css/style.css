@@ -78,10 +78,13 @@ header {
  }
 .header nav li {
   display: inline-block;
+  padding-right: 10px;
+  }
+.header nav a {
   font-size: 24px;
   font-weight: 600;
-  padding-right: 10px;
   color: #f9e42e;
+  text-decoration: none;
 }
 #main {
   background-color: #f0efef;
@@ -103,11 +106,19 @@ header {
   font-size: 24px;
   font-weight: 300;
 }
-.post span {
+.post p:first-letter {
+  color: purple;
+  /*add change in font and float left*/
+}
+.post a {
   float: right;
   text-decoration: none;
   font-size: 24px;
   font-weight: 600;
+}
+article {
+  border-bottom: 1px solid #033048;
+  margin-bottom: 20px;
 }
 .side {
   float: right;
@@ -125,9 +136,10 @@ header {
   font-size: 22px;
   font-weight: 300;
 }
-.about span {
+.about a {
   font-size: 22px;
   font-weight: 600;
+  text-decoration: none;
 }
 .sign {
   height: 40px;
@@ -159,6 +171,7 @@ footer {
 }
 .foot ul li {
   display: inline-block;
+  margin-right: 20px;
 }
 .foot h6 {
   color: #ffffff;
