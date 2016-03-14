@@ -105,20 +105,28 @@ header {
 .post p {
   font-size: 24px;
   font-weight: 300;
-}
+  }
 .post p:first-letter {
-  color: purple;
-  /*add change in font and float left*/
+  font-size: 350%;
+  font-weight: bold;
+  float: left;
+     /*add change in font and float left*/
 }
 .post a {
   float: right;
   text-decoration: none;
   font-size: 24px;
   font-weight: 600;
+  color: #033048;
 }
 article {
   border-bottom: 1px solid #033048;
   margin-bottom: 20px;
+  width: 690px;
+}
+article img {
+  display: block;
+  width: 100%;
 }
 .side {
   float: right;
@@ -132,6 +140,9 @@ article {
   font-size: 24px;
   font-weight: 300;
 }
+.about {
+  padding-top: 20px;
+}
 .about p {
   font-size: 22px;
   font-weight: 300;
@@ -140,6 +151,10 @@ article {
   font-size: 22px;
   font-weight: 600;
   text-decoration: none;
+  color: #033048;
+}
+.ad {
+  padding-top: 30px;
 }
 .sign {
   height: 40px;
@@ -179,6 +194,13 @@ footer {
   font-size: 9px;
   margin-top: 30px;
   }
+
+  /*psuedo classes*/
+  a:hover {
+    color: #f9e42e;
+  }
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
