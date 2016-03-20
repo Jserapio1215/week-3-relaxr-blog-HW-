@@ -119,6 +119,12 @@ header {
   font-weight: 600;
   color: #033048;
 }
+#firstparagraph {
+  padding-top: 15px;
+}
+#secondparagraph {
+  padding-top: 15px;
+}
 article {
   border-bottom: 1px solid #033048;
   margin-bottom: 20px;

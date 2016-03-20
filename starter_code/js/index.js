@@ -15,6 +15,10 @@ $('#secondless').hide();
 $('#secondmore').click(showAgain);
 
 $('#firstless').click(hideText);
+$('#secondless').click(hideAgain)
+
+$('#foundme').hide();
+$('#learn').click(showTreat);
 
 function showText() {
   $('#firstparagraph').slideDown();
@@ -27,8 +31,17 @@ function showAgain() {
   $('#secondmore').hide();
  }
 function hideText() {
- 	$('#firstparagraph').slideUP();
+ 	$('#firstparagraph').slideUp();
  	$('#firstless').hide();
  	$('#firstmore').show();
+ }
+ function hideAgain() {
+ 	$('#secondparagraph').slideUp();
+ 	$('#secondless').hide();
+ 	$('#secondmore').show();
+ }
+ function showTreat() {
+ 	$('#foundme').slideDown();
+ 	$('#learn').hide();
  }
 
