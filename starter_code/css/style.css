@@ -112,7 +112,7 @@ header {
   float: left;
      /*add change in font and float left*/
 }
-.post a {
+.post h3 {
   float: right;
   text-decoration: none;
   font-size: 24px;
@@ -147,7 +147,7 @@ article img {
   font-size: 22px;
   font-weight: 300;
 }
-.about a {
+.about h3 {
   font-size: 22px;
   font-weight: 600;
   text-decoration: none;
@@ -196,7 +196,7 @@ footer {
   }
 
   /*psuedo classes*/
-  a:hover {
+  h3:hover {
     color: #f9e42e;
   }
 
