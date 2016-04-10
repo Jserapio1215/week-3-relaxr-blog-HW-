@@ -5,6 +5,7 @@
 // function changeBackground() {
 // 	document.getElementById('main').style.backgroundColor ='white';
 // }
+$( document ).ready(function() {
 
 $('#firstparagraph').hide();
 $('#firstless').hide();
@@ -19,6 +20,13 @@ $('#secondless').click(hideAgain)
 
 $('#foundme').hide();
 $('#learn').click(showTreat);
+
+$('ul').hide();
+$('.menu').click(showMenu);
+
+function showMenu() {
+  $('ul').slideToggle();
+ }
 
 function showText() {
   $('#firstparagraph').slideDown();
@@ -43,5 +51,6 @@ function hideText() {
  function showTreat() {
  	$('#foundme').slideDown();
  	$('#learn').hide();
- }
+}
+})
 

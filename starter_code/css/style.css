@@ -59,8 +59,7 @@ body {
 
 /* Center the container */
 #container {
-  /*width: 960px;
-  margin: auto;*/
+  width: 100%;
 }
 header {
   background-color: #033048;
@@ -74,7 +73,6 @@ header {
 }
 .header nav {
   float: right;
-
  }
 .header nav li {
   display: inline-block;
@@ -92,6 +90,16 @@ header {
 .container {
   width: 960px;
   margin: 0 auto;
+}
+.menu {
+  display: none;
+  background-color: #033048;
+  color: #f9e42e;
+  border: none;
+  float: right;
+  margin-top: 20px;
+  height: 25px;
+  width: 25px;
 }
 .post {
   float: left;
@@ -163,13 +171,13 @@ article img {
   padding-top: 30px;
 }
 .sign {
+  width: 100%;
   height: 40px;
   background-color: #f9e42e;
   color: #ffffff;
-  padding: 10px 525px;
+  text-align: center;
 }
 .sign a {
-  display: block;
   text-decoration: none;
   color: #ffffff;
   border: 5px solid #033048;
@@ -215,7 +223,113 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+/*Point Break 768px*/
+@media screen and (max-width: 768px) {
+#wrapper {
+  width: 100%;
+}
+.container {
+  width: 100%;
+}
+.container h1 {
+  font-size: 1.5em; 
+  width: 100%;
+}
+.header nav {
+  float: none;
+ }
+.header ul li {
+  display: block;
+  width: 100%;
+}
+.header nav a {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #f9e42e;
+  text-decoration: none;
+}
+.menu {
+  display: block;
+  background-color: red;
+  color: yellow;
+  border: none;
+  float: right;
+  margin-top: -20px;
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+}
+.post {
+  float: none;
+  width: 100%;
+}
+.post h2 {
+  font-size: 2.5em;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.post p {
+  font-size: 1.5em;
+  font-weight: 300;
+  }
+.post p:first-letter {
+  font-size: 200%;
+  font-weight: bold;
+  float: left;
+     /*add change in font and float left*/
+}
+.post h3 {
+  float: right;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #033048;
+}
+.side {
+  float: none;
+  width: 100%;
+}
+.side h4 {
+  font-size: 1.5em;
+  font-weight: 800;
+}
+.categories li {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+.about h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  text-decoration: none;
+  color: #033048;
+}
+.ad {
+  padding-top: none;
+}
+.ad img {
+  width: 100%;
+  height: 200px;
+}
+.sign {
+  width: 100%
+}
+.sign a {
+  text-decoration: none;
+  color: #ffffff;
+  border: 5px solid #033048;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #033048;
+  font-size: 12px;
+  font-weight: 800;
+}
 
 
 
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+}
 
