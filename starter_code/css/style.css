@@ -58,7 +58,7 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
+#wrapper {
   width: 100%;
 }
 header {
@@ -68,7 +68,7 @@ header {
 .header h1 {
   float: left;
   color: #ffffff;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 800;
 }
 .header nav {
@@ -176,6 +176,7 @@ article img {
   background-color: #f9e42e;
   color: #ffffff;
   text-align: center;
+  padding-top: 12px;
 }
 .sign a {
   text-decoration: none;
@@ -239,10 +240,10 @@ footer {
   float: none;
  }
 .header ul li {
-  display: block;
   width: 100%;
 }
 .header nav a {
+  display: none;
   font-size: 1.5em;
   font-weight: 600;
   color: #f9e42e;
@@ -250,11 +251,11 @@ footer {
 }
 .menu {
   display: block;
-  background-color: red;
+  background-color: #033048;
   color: yellow;
   border: none;
   float: right;
-  margin-top: -20px;
+  margin-top: -30px;
   margin-right: 10px;
   height: 20px;
   width: 20px;
@@ -323,7 +324,6 @@ footer {
   font-size: 12px;
   font-weight: 800;
 }
-
 
 
 .clearfix:after {

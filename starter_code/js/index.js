@@ -21,11 +21,11 @@ $('#secondless').click(hideAgain)
 $('#foundme').hide();
 $('#learn').click(showTreat);
 
-$('ul').hide();
+// $('.nav').slideToggle();
 $('.menu').click(showMenu);
 
 function showMenu() {
-  $('ul').slideToggle();
+  $('.nav').slideToggle();
  }
 
 function showText() {
@@ -54,3 +54,4 @@ function hideText() {
 }
 })
 
+	
